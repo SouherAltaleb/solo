@@ -5,7 +5,7 @@ const shift = parseInt(process.argv[3]); // parseInt: 3 string zu 3 nummer umwan
 
 //  Überprüfe, ob beide Eingaben vorhanden sind
 if (!text || isNaN(shift)) {
-  console.log(" ❌ Bitte gib einen Text und eine Zahl ein.");
+  console.log(" Bitte gib einen Text und eine Zahl ein.");
   process.exit();
 }
 
